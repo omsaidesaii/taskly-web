@@ -10,18 +10,19 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   background: var(--background);
   color: var(--text);
 }
-.container{
-  display:flex;
+.container {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 120px auto 0 auto;max-width: 500px;
+  margin: 120px auto 0 auto;
+  max-width: 500px;
 }
-.stats-container{
+.stats-container {
   padding: 20px;
   border-radius: 10px;
   border: 2px solid var(--purple);
@@ -30,28 +31,27 @@ body{
   gap: 10px;
   width: 100%;
 }
-.details{
+.details {
   width: 100%;
-
 }
-.details p{
+.details p {
   margin-top: 5px;
 }
-#progressbar{
+#progressbar {
   width: 100%;
   height: 10px;
   background-color: var(--secondaryBackground);
   border-radius: 5px;
   margin-top: 20px;
 }
-#progress{
+#progress {
   width: 0%;
   height: 10px;
   background-color: var(--teal);
   border-radius: 10px;
   transition: all 0.3s ease;
 }
-#numbers{
+#numbers {
   width: 100px;
   height: 100px;
   background-color: var(--purple);
@@ -62,14 +62,13 @@ body{
   font-size: 30px;
   font-weight: bold;
 }
-form{
+form {
   display: flex;
   width: 100%;
   margin-top: 60px;
   gap: 10px;
-
 }
-input{
+input {
   flex: 1;
   padding: 10px;
   border: 1px solid var(--purple);
@@ -77,7 +76,7 @@ input{
   border-radius: 10px;
   color: var(--text);
 }
-button{
+button {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -91,32 +90,29 @@ button{
   color: var(--text);
   font-weight: bold;
 }
-#task-list{
+#task-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin-top: 30px;
   width: 100%;
   list-style: none;
-
 }
-.task{
+.task {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.task input{
+.task input {
   width: 20px;
   height: 20px;
   accent-color: var(--purple);
-
-
 }
-.completed p{
+.completed p {
   text-decoration: line-through;
   color: var(--teal);
 }
-.taskItem{
+.taskItem {
   width: 100%;
   display: flex;
   background-color: var(--secondaryBackground);
@@ -125,35 +121,25 @@ button{
   align-items: center;
   justify-content: space-between;
 }
-.taskItem img{
+.taskItem img {
   width: 24px;
   height: 24px;
   margin: 0 10px;
   cursor: pointer;
 }
 
-
-
-
-
 @media (max-width: 600px) {
   .container {
-    margin: 50px auto 0 auto; 
-    max-width: 400px; 
-    padding: 0 15px; 
+    margin: 50px auto 0 auto;
+    max-width: 400px;
+    padding: 0 15px;
   }
-
-  
-  
 }
 
 @media (max-width: 400px) {
   .container {
-    margin: 40px auto 0 auto; 
-    max-width: 320px; 
-    padding: 0 10px; 
+    margin: 40px auto 0 auto;
+    max-width: 370px;
+    padding: 0 10px;
   }
 }
-
-
-
