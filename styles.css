@@ -34,6 +34,9 @@ body{
   width: 100%;
 
 }
+.details p{
+  margin-top: 5px;
+}
 #progressbar{
   width: 100%;
   height: 10px;
@@ -88,3 +91,69 @@ button{
   color: var(--text);
   font-weight: bold;
 }
+#task-list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+  width: 100%;
+  list-style: none;
+
+}
+.task{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.task input{
+  width: 20px;
+  height: 20px;
+  accent-color: var(--purple);
+
+
+}
+.completed p{
+  text-decoration: line-through;
+  color: var(--teal);
+}
+.taskItem{
+  width: 100%;
+  display: flex;
+  background-color: var(--secondaryBackground);
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.taskItem img{
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+  .container {
+    margin: 50px auto 0 auto; 
+    max-width: 400px; 
+    padding: 0 15px; 
+  }
+
+  
+  
+}
+
+@media (max-width: 400px) {
+  .container {
+    margin: 40px auto 0 auto; 
+    max-width: 320px; 
+    padding: 0 10px; 
+  }
+}
+
+
+
